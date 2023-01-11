@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel Martin / UI Designs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside>
+        <div class="aside-navbar">
+            <div class="left">
+                <span class="logo">Planner<span class="dot">.</span></span>
+            </div>
+            <div class="right">
+                <div class="notification">
+                    <img class="l-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAABcklEQVR4nO2XwUoDQQyGq0IV8ejNJ1DwIghij14UX8mDl6IHQYUKPoL4Dp59A6+ibSmF3aRJrTZZamR2twqW4ra7binsD4FhmUy+JDPDbKlUaF4FFBwjaQNJ6z4FR7kDIGkdWS000tfcAkNXtpHlGkg+hwBuDCyXHvc3/y2wmS0jSQ1IBt+Z/zIgCYDk3MyWMg3+bLYCJA9xkA9guUCUHTMrN5u26pHuAcmtA4jm6L2ZLWYGgCQ3cZYvHve3xs3zWSvA4ocQrCeZ9Rxcv0ne3fhP2G5w4NoEJH2v19tIDYAktSh7uUoMTXoXnQ45zQBAn9xinY7uJvXxO8FhDP2YHoDlzS3WbttaUh9mW4/2gUAGABoesUl8zGxheD/MBCCN34gKACxawMUm1NkdQ5+1Et/prYkBSFrO1yfdnyo4jnl0TGvzB5C0vGnaNLWQtBkCsFZ+ALSRI4CcjZSZpJobgJmVQwhXifDnRKruW24AhUoZ6gudUZ1EBlJO4wAAAABJRU5ErkJggg==">
+                </div>
+            </div>
+        </div>
+        <div class="aside-list-elements">
+            <div class="side-link-group">
+                <div class="link l-selected">
+                   <img class="l-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEMAAABDCAYAAADHyrhzAAAACXBIWXMAAAsTAAALEwEAmpwYAAACkUlEQVR4nO2bzYuNcRTHP4yXIqGsvBTKpEYWLPwFM9LsSFJGjVwbKxJSNlZsZDElCwuRt4WNmrzsLaZQsrUR8hYZGcxoHp16yul2732efi/H3O751Fl/T5+nfs9zz+9ccBzHiWM9MAIcyVSjwOY22auAfRmzDwM76ooYBqaAInP9ARpN2QPAR4NsqYt1ZLw0akbqG9Cnsm8bZs8CG6pkTBs2JLVWZT8zzt5ZJWPGuKF1Kvu5cfauUBlfgVeB9SlSxmRE9uvUMu4CCwlnHnApUMYEsIw4RlPKGCaegUAZJxNk97U5C4NkDCZoaFOgjGOk4afL+IfLULgMhctQuAyFy1C4DIXLULgMhctQuAyFy8ghY4h4+gN/qB0nDb9SyTiToJkDgTJkLhrLtpTzjBngJnA+sK52mLjXmXQ9Ai4EZl8GPqeUUWSsrpyBFr0o441hMyJ+icp+YCxDzpKOnDVsRs4Sze7ycsci+0nTBVbbSfYIcL2ciucoOYyPAgta5A+VknJl3ykfeOzE3el5VmdeC5APsI1tLK8E9mTMPgRsr/uEB4HvBgeYXOocbMqWnY33RgeofMRV8sLwbSL3t/NV9i3D7NlyKacjvw0bklqjsn0lgS78HJ+MWAv4EiljKiL7bWoZ94DFhCPnwligjKfACuJozLWVhC2BMk4lyPaVhCZ8BqpwGQqXoXAZCpehcBkKl6FwGQqXoXAZCpehcBlzVUb/f94dT7aScDpBM/sDZciFUyxbU84zpoFrESsJV4AfEZOu8YhsGSp9SD32KzJVV85Ai16U8c6wGflv61KV/dBYRuXN2jnDZuSmX7PXMHui7kpCo5yIP85U94ETwKIW+TJ8vpExe7x84MurRDiOQyv+AhRpaUQAPvilAAAAAElFTkSuQmCC">
+                   <span>Projects</span>
+                </div>
+                <div class="link">
+                    <img class="l-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD8klEQVR4nO1bO28TQRBeEA8hBEhQQAUVz9CBREHHP0DBoqFK0O141g7xjCPojoYCRIh55AdQ0VEAEiDgF0CRCAIRDYg0CAQS4SEBCUFjBxHvKfGt7fNjz5+0UpRcMp69nZ2Z75so5RkA+CAgl7ThF4D0TVblay7Jz5SvyIThOjA0rpHmwfDCMmsODF2XZ5VPyIThOo30ZAXH7fXYq00AQ+MOzlcW8jXlTcyXj/Z/57Thd2AK/QMDI5tkaVM8rg1N2+GAONynuh3ly81yfrBQ2Go/J98DpJnqTaArqtsBSFPVThX6l3s2m6NM9WbRc9XtAEOzS52SI7/cs/l8frN1AmZVtwMMfY+7AUFwdosVLl9Vt0MbflntVPH4cs9KeFgb8EJ1O6SwseJ6eoVL8LX17FXlQxqMVH9IM3LhScxX4r7QH3EeaT7I0T7lA+RNuhZCGmlM+VUK8wOHDbifz+fXK58QBMFabeiyXRXax16KH++cXwo9NLIbDL+xnH8DyKOnDe1RvmNwaGg7GP61dAOyWT6k0gJtqOhdrneBNjRptb2s0oLADB+2Lr3fiMUdKi0AqyoEQ3dUWpApc4L8MW5r7B008gkr9j95ne9taOS7XnJ+cdDL/aaX+yd7ud90SO4HW5sz9L1CW9H1ZvLw8rcWeYBI4yMNkWpTT36jVjsqH7oRWaqc75Gv1dQAkUelRW6ulysXIY/jszH8oJ4PJ3ldG3roQny0RAPUlTfvqs2NNqoCxdrspIlPqFObk8sKYGRvXDtCYNa0I9WgJX+VQyXJuQCNNFavNqcNXYptp0J31bRjzLltEQ0wyapQy21fpzbX2HKwgzSV3AYgf6lfm6t/OdlB+taR2hwktAFROwmKoGDJ0y7aXCPLTQNMUAaHBrQ5QL4Y145cmA3YcU65iWtzQl27lKySMsup093OnM7zAZUUwjBcA8iv3I9w/BT4D/ImncMFuaSShLbqgJjO36unFJbfkfI2th2kR4n2A4A04OS4NENIY01ohkorNUPlUEEuJeq8zhWPAtJP682+DZCPaMMXtOFn2tDnyqgqPZeaPJs9s79p9vN8oNwVLrbdMu4idiRMEo15QTB0dicgv6/edf6RCg2uUChsAOSn1rH7E+TopEoBVmmkW9FLjc+rNACQwmiaodthGK5WPs/bA/IEGL4pR93KsROnmDeqFM3bLyy59D4g8i6V0nn7BcjxMZXmeXtdRynr3by9bgf/3mxAb96eevP2kPJ5+9mO5NpaBWiA0/PiX050RNjoEK6tVUAc7osoup3AtbV3vo7bz7W1EhlneTthrq0dyCwOHtQYcEiea+uMO4GuVHg84dlayLW1AX8BLXNqccUntFcAAAAASUVORK5CYII=">
+                    <span>Statistics</span>
+                </div>
+                <div class="link">
+                    <img class="l-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD+UlEQVR4nO1ZzY8URRTv4aIkIIKCJ2UNcCDiUS6GPwA10fgREDYugU1X1XvdM9vv9bDraTgrHzHx5noDEuMJhRhvXvgM4WslgZvJ7t1NNruAMaOpGWamuqdmpqtn2ZlN5iWTdLqrXv9+r977veoazxvZyEY2snVnfhjvUkE0LoHLEuMpfe0Xp9/yht0k8mGBdFci/2f7CeA7vuJPPc8reMNkSs1slchXOgG3ELnk+9NbvKEBD/wgCZKWNUgJfEYina1dIy0nSCDdD8PwlWFImysGsKpAOl0qlV5Nj9P3NBk9xiBx2RukqYC+SIAHOtp7TjRuklABfeINyiTwTSOap7POE0DnWvP4tjcImwz4bTPnbWnTrW4E8EqThCiNeWttAuhLg8AvzvORLhvpd9hba5PA3AQA/G2O+WeM+eyttQmkOE/+WwlgPNVtrO/T61owFPK07u76+kQUbRuaFOqkRCeKxTcE8o8S6JmlIf4jgWbDMNyej4AojeUtYh09o4irALwzPcbH6F0JNN+zswPNA0y9k48E0i2DxFmHed8ZMvpH+rmUvEMiL6S2H9frjbD2u5EisqDTzJ0A8OdmI9NNquccFX2V6MYQf9xGAGjWAP63DPhgeoxS/KFEWjRWYtaZgEUOqzpCWuetaVOPfBO8RL6YHqcjKYCfNscE7eCbRJE+Mog+RZx5zZmA3lVK4Hup5V4RwL82llxfm43reepctdWNuaoC+LpbGkefORNokBDAjzNvp5EeAcAmmy8JNOMiz7K+QWyMj53BK8XvSaBrWcGbHzciiPan/Qnkr3MTAI6cwPtIVNPj9gjPSeTztWZVb1jnBfKfFiL/+siynxSS5obSIggdTSB9kwRDT/Q9/T3ckXAY79JR1WNT9XDKLHazcQmIPshYxCvHj5c3O28jGgWpFL2ZlbxuXHVdb/kwV0IA/2AEZlFLph18S0YF8PfZwAfR/mTa0E9hGL7kOdrEROVlifSzGUEpeZ9+puWwrQuDThWtaHQuqTy1lP0r606gkPyI4at5wJskEisBdK3xTKnSXoG81FvReAkg2p3phbpIzJx3SZuOPkVpzGxcIojff75XuuSgar/ZmqeFQMupLth+wTf91gq76ff39rMlynLKMdeVRBRFG0116KY2zgSK5T0dIlt1OeXQK9Hx0EwG5QMm29UC3/QP9LANPLifcvgBHbK/AGmypRh0YdUJIF9MpUS+Uw7gO/ZBAZ3M4zxPHfR9ylEs77G8gE/ZOufqEWj57/8TNRofLIE+TzkU8vRACeTxL3rNX/cEVF2uGirUU96cAQAd68e/yoCvoB9IjI+8iH9YKpXKBok80Yf/wovEN7KRjWxkXi77H4x8nIcP6WB4AAAAAElFTkSuQmCC">
+                    <span>Users</span>
+                </div>
+                <div class="link">
+                    <img class="l-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA7UlEQVR4nO2YMQoCMRBFcw6tPVs+GRBM2N7So6yFJ1sE9QLKWlikkWxmZ0T+g20z85JXbQiEkK/E/bCD5AskPyDl2fNFKcdgvnwq197F3STwvnm95c0loJCNqwSqoVrnfCRSPulu/GWw1jlmEjAQwJoSVgJYS8JSAGtIWAtAW8JDAJoSXgLQkvAUQMc8CiwFv/oCbvNAgTbAF6hgQo2ACVUwoUbAhCqYUCNgQhVMqBEwoQom1AiYUAUT8r6wmMp96T+d/i/fugUg+ewmkMrY/wLxsIWUyUFgEhk2QYP5oPk2LHKK84xURrXlCflzXhmcwvWxzQjKAAAAAElFTkSuQmCC">
+                    <span>Files</span>
+                </div>
+                <a href="settings.html">
+                <div class="link">
+                    <img class="l-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABIElEQVR4nO2YTQrCMBCF305vmWWGhG6SA3gAf3omdek5rN5CCSiiSGmIaV9xHmSXDvPNe7RNANWMJD7sxcXT7GuIj7e0ypogqCEMTUBByKYJdYRsmvhXR4xZLa0LrfXh8nzwy+rEh13aSwtiXWh7AN6Xi1teEN/rxCfIlRZEhkJkNpa735RGnAXElkY8J1rWhXM1EF8Y8USXUWBdC0RKk5Hy9oDp+rJpfdg0TbOgBamlmtGyQyM++qsTlSI+BYipEfEpQKqIBURKa1A0AQUhmybUEbJpQh0hmybUkbLfC8oLDBn7dEcDwnqBISSHIlEQptMdpnCE5AKD83QHkg/iLyQMIBQ1hKEJKAjZNKGOkE0T6shL4uPRunBAgVhqqDCy7pNEacM9rPetAAAAAElFTkSuQmCC">
+                    <span>Settings</span>
+                </div></a>
+            </div>
+        </div>
+
+        <div class="aside-footer">
+            <div class="aside-footer-contents">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAADy0lEQVR4nO1XP4icVRBfQwTFP0mwEcFE/HeIokm0jaUgxgRbCxsb0UrQpBWSUywkJLlOYxICFlpJKrNqYREtLNSI0UI9E8xx7O3MN7N3u9/Mknvye997m+822dvdKEggAw/eNzvzZub35s3MNho36UYikXKmUN9PYl+y+HlWW45L/DyJNVl9n0j56H9uuCj8GRL7itXDJAsOFoU//a8NhxBuZbE5EluNB6u1SfwjknIP0FhYCHdgYU9a7iX1Y5BJTqyy2pEQwsbrjDpsIbGvq6hshcUOLC2Fu8fpQYbFDrJYN6PBHDZPHTll4+IXmG1HqxXuIupuG6fL3HsABnEFLH4xOzEVEiw2l423VlbuEwn3sPhPLP7z4mK4c5QefoMMi/8IJ6CbnWC1w9Mk3GqEnW0HeCT+6ZUE889CCLcM64GH32rJeKJCxHbiOkjsMvZjHaCc7WIH8N3u2OMpgg6rSdqfjZHhnuNClHY2JSolg6v5ylhsNl1Fc13jIuVMzvaccCT2SsXzj0n6u2Mko5/f5bb0n2f1zyte+VI8g8Km6Jh6ECkfGQ2/+v5k7NgAkcJeTojMRUTUX2O1V5e0fAx3joU9ePgtXdmHlUPlnsE56sdTXr29HvzNyoFy7zAqrD4/SSZDhtX/gk67270/84FGQvfMaAfUf0swDcopdezJ5PnfIYQNEziwAbLpnJnhQEj915HKrKYQwpsf8MTfTAicrL7t3ar+2+wVmbU8yEZjHX8jy+DMlMA61oGlWsVj9U+S568nmc7wQcM8yNadjjwKm8Y6QOkK8PRqCPyQHNiVop2NBsUO1hBYwyP1Z5PO91mm3bEnxl4BXSMJWWwBvKLoPdiYkIqi91DOm2sk4RcjFVl931XQifXAW1wO914lL/YO1jAfsunpdmtnn0pOvTXSARk8OVO02cqIn0u8b4m6W8dFDxlS+y4ZOwcezsr5tW4hAsX2WXn/Xvym7tbYYFJbRpEhKV/EG78Qwu1Y2IOHWSG3YejkOkBi74+FPxPaaKzjYo4aUPHCFhb7ZtKJCLLQgS4t21PxLJTwZdvemIRY7UiK4iKSryj6z+VcIPU/qpnQFsCL/GrfJPXfU0/oQScmY54J1A41JqUQwsbBVajPk9hi7ukYVtbVU/sgOQGd+Vx+px7NmMPmmhOA9VK9Qo6iWPHELg06pNqZqUeytY3FDucWTGItVjtK0n8BCfZnCLdhVUnY350G2FZuzYD9uofSOlVDiZ2eYixvTjT9TEt4w+jnEdbqjwmmpA6L/4InhiJTFL2Hpz74JjX+R/oHdgfZ+FlYk4gAAAAASUVORK5CYII=">
+                <span>Emmanuel</span>
+            </div>
+        </div>
+    </aside>
+    <main>
+        <div class="main-navbar">
+            <div class="main-nav-left">
+                <img style="height: 32px; width: 32px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEMAAABDCAYAAADHyrhzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAByElEQVR4nO3YMawMYRAH8Hl4QUPe3czezNq3M3u2EFGQU0lEQyISnUalQSQahWg0Sq1K5EWheZ1WIxINiVajVIhCvIKEEAQ5ckK4VTy5W/v9f8m/3/x3vvmSjwgAAAAAAAAAAAAAAGagp+VuMb8v5h/Y/LHk5QFKEasfE/PXYvFlEtZYW1oabqeUsPkFsfj0cxGTZFYdoTSMFsX8xp9KmKRvvou6bltR9MTiXlMRbHGduk6KnbVoPGkqQtSvEdEG6jK26iCrv5w6DervReMUdR1bdXp8bU4vItZY4xB13Mbx2P9lP7xhizNZXh1eV7JySG1VFMVWsbjTuB/+cdji9vimorYRjYuzLOJHBuV5ahvRWJ1LGRo3qW3E4tI8ysjUz1Ebdwar353xVKwS0SZqp9GiqK80Lz1/0c+r42zlaD3p7agL+h+wxVkx/9jwR5/3dbifUiHqR8X81dQJ0XjH5icpFYPBcA9bPG04Np/F/AoRLVAKsqwasMbDxj2ifpVSUdf1Zja/1TQh/eXlnBKywOqXvx+N3wtJaqFOiFYnWOPtr7eLP3P3LZQizn0fazz49qZh/khy3zvvbwIAAAAAAAAAAAAAoCR9BWvAhlzaMn2nAAAAAElFTkSuQmCC">
+                <span>Project Name</span>
+                <img style="height: 24px; width: 24px; margin-left: 10px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACNklEQVR4nO2ZTWsUQRCGy5yV+IlHYUmq16gncxQ8GDJVxEQ0gnoPBPIHcolZ48lf4E00vyPnfEG8q7AkVauiESF6lDUbyt0kvR8zZBV2e6Qf6NP2LG91v1VT3QMQiUQi/8IQfb7kSJ4j61sk+VkfuuVYluw3CJliUnlggh1rLWX8sDkQIi6RWceynyG+MWQ/uCBaxSPLO8eV6euT5cs2HO08RJL3/k7g3U8XIciVJ9m4cm/7bOu8GxNyrjkIWYIQxRfGyoNp84dJ7x/tEukWhOZ5ZH0NpdpA2jMjt7+e9ubvQYgJiyyv0oJwU9/O9D2ATrZB1jcnCcJxZbqvFkr1fKk2YKJdRhCW2EjywUviZ2GIPyQjiMJYedDm+/bpaRk9cbUpdQrC7CWb/ovMqlHPxCPrjCP57XvXanr6E7VTjvVl2lsYSeeCrfPNO9Gc2H/+J5FZCHfljym0eb7HKx/Fc1z57om24Wib7om24Wib7rED9l+1B4dv2JbGrKftAViPQrqTT/FgJyIZ9QTs5kq8gaSLfp8OeWjMfJBl3TstPYI8iR8Z1/OOpNrwfrV45+OF3Ig3iok+8Xr7VciTeMORLh8JSnQBQk/YDuXziydqtNVew6SP60HKbljiob18WkBXE7mGJPOOdQVZf/X9AJ4Fsj71qs/35t3odD2o23aLBqGALGuZHx1IqvXPQPoCSW5lXdD2Bce617bKtguky+Z9ywEIGSRdbFhn1SpQcUJuBrfKkUjk/+AAQ5ytGqmF2zQAAAAASUVORK5CYII=">
+            </div>
+            <div class="main-nav-right">
+                <img src="https://img.icons8.com/bubbles/50/null/guest-male.png"/>
+            </div>
+        </div>
+
+        <div class="main-section">
+            <div class="boxes-two box-con left">
+                <div class="box">
+                    <div class="box-c">
+                        <span>50</span> <br>
+                    <span style="font-size: small;">Total Tasks</span><br>
+                    <span style="font-size: x-small;">+2 This week</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-c">
+                        <span>12</span> <br>
+                    <span style="font-size: small;">Completed Tasks</span><br>
+                    <span style="font-size: x-small;">+1 This week</span>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes-two box-con left">
+                <div class="box">
+                    <div class="box-c">
+                        <span>3</span> <br>
+                    <span style="font-size: small;">Overdue Tasks</span><br>
+                    <span style="font-size: x-small;">+2 This week</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-c">
+                        <span>35</span> <br>
+                    <span style="font-size: small;">To Do Tasks</span><br>
+                    <span style="font-size: x-small;">+22 This week</span>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes-two box-con-large left">
+                <div class="box-large">
+                    <div class="box-c">
+                        <span>Get your <span class="text-b">projects </span>ready in consistancy</span>
+                        <br>
+                        <button class="blue-int">Know More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes-two box-con left">
+                <div class="box-large-lblue">
+                    <div class="container">
+                        <div class="circle">
+                            <div class="mask">
+                            70%
+                        </div>
+                    </div>
+                    <br>
+                    <span>of project completed</span>
+                    </div>
+               
+                    
+                </div>
+            
+            </div>
+        </div>
+        <div class="main-timeline">
+            <table  cellspacing="4" cellpadding="10">
+                <tr>
+                    <th>Tasks</th>
+                    <th>1 Jan 2023</th>
+                    <th>2 Jan 2023</th>
+                    <th>3 Jan 2023</th>
+                    <th>4 Jan 2023</th>
+                    <th>5 Jan 2023</th>
+                    <th>6 Jan 2023</th>
+                    <th>7 Jan 2023</th>
+                </tr>
+
+                <tr>
+                    <td>Design</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                </tr>
+                <tr>
+                    <td>Coding</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                </tr>
+                <tr>
+                    <td>Implementation</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                </tr>
+                <tr>
+                    <td>Frameworks</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                </tr>
+                <tr>
+                    <td>Iteration</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                </tr>
+                <tr>
+                    <td>View</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                </tr>
+                <tr>
+                    <td>Test</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                    <td>done</td>
+                </tr>
+            </table>
+
+        </div>
+    </main>
+</body>
+</html>
